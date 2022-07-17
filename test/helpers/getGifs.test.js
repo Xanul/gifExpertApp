@@ -6,7 +6,6 @@ describe('Pruebas en getGifs()', () => {
 
     const gifs = await getGifs('One Punch');
     // console.log(gifs);
-    console.log(gifs.length)
     expect(gifs.length).toBeGreaterThan(0);
     expect( gifs[0] ).toEqual({
       id: expect.any(String),
@@ -16,6 +15,6 @@ describe('Pruebas en getGifs()', () => {
 
 
 
-  })
+  });
 
 })
