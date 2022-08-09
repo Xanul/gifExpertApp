@@ -43,9 +43,10 @@ describe('Pruebas en el componente GifExpertApp', () => {
     
     const items = await screen.findAllByText(inputValue);
     expect(items).toHaveLength(1);
-
     expect(items.length).toBeLessThan(2);
 
-  })
+  });
+
+  
 
 })
